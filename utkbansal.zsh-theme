@@ -1,6 +1,6 @@
 #
-# Cobalt2 Theme - https://github.com/wesbos/Cobalt2-iterm
-#
+# utkbansal theme - https://github.com/utkbansal/my-zsh-config
+
 # # README
 #
 # In order for this theme to render correctly, you will need a
