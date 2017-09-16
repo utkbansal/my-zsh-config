@@ -7,6 +7,8 @@ This uses **iTerm2** & **oh-my-zsh** and is heavily inspired by the [agnoster](h
 
 ## Setup Instructions
 
+**Note**: You may have to restart the iTerm to see the changes reflect.
+
 ### Download [iTerm2](https://www.iterm2.com/)
 and move it to your Appplications Folder
 
@@ -50,6 +52,4 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 1. Double click the `zsh.itermcolors`
 1. Select the Color Scheme iTerm > Preferences > Profile > Colors > Color Presets --> Select `zsh`
 
-
-**Note**
-You may have to restart the shell to see the changes being reflected
+... and you are done! :)
