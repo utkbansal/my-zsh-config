@@ -39,7 +39,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 1. Copy the file `zsh.zsh-theme` to `~/.oh-my-zsh/themes`
 1. Update the `~/.zshrc` file to update the current theme
   ```
-  ZSH_THEME="lalit"
+  ZSH_THEME="zsh"
   ```
   
 ### Update iTerm Prefrences
