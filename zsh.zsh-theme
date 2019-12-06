@@ -97,11 +97,24 @@ prompt_virtualenv() {
   fi
 }
 
+# Current AWS profile
+prompt_aws_profile() {
+
+  if [[ -n $AWS_PROFILE ]]; then
+    if [[ "$AWS_PROFILE" == "default" ]]; then
+      prompt_segment red default "⚡ $AWS_PROFILE"
+    else
+      prompt_segment black default "⚡ $AWS_PROFILE"
+    fi
+  fi
+}
+
 ## Main prompt
 build_prompt() {
   RETVAL=$?
   prompt_status
   prompt_context
+  prompt_aws_profile
   prompt_dir
   prompt_virtualenv
   prompt_git
