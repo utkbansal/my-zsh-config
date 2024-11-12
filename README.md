@@ -37,7 +37,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 ### Install the zsh-theme
 1. Copy the file `zsh.zsh-theme` to `~/.oh-my-zsh/themes`
-1. Update the `~/.zshrc` file to update the current theme
+2. Update the `~/.zshrc` file to update the current theme
   ```
   ZSH_THEME="zsh"
   ```
@@ -45,11 +45,11 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 ### Update iTerm Prefrences
 
 #### Install the Inconsolata for Powerline on your Mac
-1. The file is under `/fonts/Inconsolata for Powerline.otf`
-1. iTerm > Preferences > Profile > Text > Change Font and select `Inconsolata for Powerline`
+1. The file is under `/fonts/JetBrainsMonoNerdFont-Regular.ttf`
+2. iTerm > Preferences > Profile > Text > Change Font and select `JetBrainsMono Nerd Font`
 
 #### Install the Color Theme
 1. Double click the `zsh.itermcolors`
-1. Select the Color Scheme iTerm > Preferences > Profile > Colors > Color Presets --> Select `zsh`
+2. Select the Color Scheme iTerm > Preferences > Profile > Colors > Color Presets --> Select `zsh`
 
 ... and you are done! :)
